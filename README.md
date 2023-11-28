@@ -1,4 +1,4 @@
-# Capturar do trafego SIP com GNS3
+#Capturar do trafego SIP com GNS3
 Apresentação do projeto de Redes Convergentes referente a capturar tráfego SIP utilizando GNS3.
 
 # Oque seria o SIP?
@@ -7,7 +7,7 @@ O protocolo SIP é utilizado em chamadas de voz sobre IP ou VoIP. Isso permite q
 
 # Topologia de uma rede com implementação de SIP
 
-![image](https://github.com/larissalg9/Capturar-trafego-SIP-/assets/58262383/a9611707-5dc9-405c-b6e0-49a1904c0dd4)
+![image](https://github.com/larissalg9/Capturar-trafego-SIP-gns3-/assets/58262383/2f92713d-30c1-4e1d-a2e2-e4e30706d85e)
 
 #Passo 1: Instalação do GNS3
 Faça o download e instale o GNS3 no seu sistema operacional.
