@@ -33,7 +33,7 @@ Crie uma nova VM ou selecione uma existente. O assistente de configuração irá
 Faça o download das imagens do roteador que você planeja usar no GNS3. Estas podem ser imagens Cisco IOS, por exemplo.
 Em Edit -> Preferences -> IOS Routers, adicione o caminho para as imagens do roteador.
 
-*Configuração do Dynamips (Opcional)
+* Configuração do Dynamips (Opcional)
 
 Se estiver usando roteadores Cisco, você pode configurar o Dynamips para melhor desempenho:
 Vá para Edit -> Preferences -> Dynamips.
