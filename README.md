@@ -10,53 +10,54 @@ O protocolo SIP é utilizado em chamadas de voz sobre IP ou VoIP. Isso permite q
 
 ![image](https://github.com/larissalg9/Capturar-trafego-SIP-gns3-/assets/58262383/2f92713d-30c1-4e1d-a2e2-e4e30706d85e)
 
-* Passo 1: Download, Instalação e configuração do GNS3
+# Passo 1: Download, Instalação e configuração do GNS3
   
 Acesse o site oficial do GNS3 em https://www.gns3.com/.
 Clique na opção "Download GNS3" no menu principal.
 
 O GNS3 usa um software de virtualização como VirtualBox ou VMware para executar máquinas virtuais. Escolha um dos seguintes:
 
-Instalação do GNS3
+* Instalação do GNS3
 
 Execute o instalador do GNS3 que você baixou no Passo 1.
 Siga as instruções do assistente de instalação. Certifique-se de selecionar as opções para instalar o GNS3, o GNS3 VM e os componentes necessários.
 
-Configuração do GNS3 VM
+* Configuração do GNS3 VM
 
 Após a instalação do GNS3, inicie o aplicativo.
 Vá para Edit -> Preferences -> GNS3 VM para configurar a VM.
 Crie uma nova VM ou selecione uma existente. O assistente de configuração irá guiá-lo através do processo.
 
-Adição de Imagens de Roteadores
+* Adição de Imagens de Roteadores
 
 Faça o download das imagens do roteador que você planeja usar no GNS3. Estas podem ser imagens Cisco IOS, por exemplo.
 Em Edit -> Preferences -> IOS Routers, adicione o caminho para as imagens do roteador.
 
-Configuração do Dynamips (Opcional)
+*Configuração do Dynamips (Opcional)
+
 Se estiver usando roteadores Cisco, você pode configurar o Dynamips para melhor desempenho:
 Vá para Edit -> Preferences -> Dynamips.
 Ajuste as configurações de memória e recursos de acordo com a capacidade do seu sistema.
 
-Adição de Roteadores Virtuais
+* Adição de Roteadores Virtuais
 No GNS3, adicione dois roteadores virtuais (por exemplo, Cisco Router c7200) ao seu projeto.
 Conecte os roteadores usando links Ethernet e atribua endereços IP às interfaces conectadas.
 
 Observaçãop importante: Conecte as máquinas virtuais aos roteadores usando links Ethernet.
 
-* Passo 4: Configuração de Servidor SIP
+# Passo 4: Configuração de Servidor SIP
   
 Nessa atividade utilizaramos o servidor já criado na apresentação do projeto que utiliza as tecnologias FREEPBX e Asterisck.
 Link da máquina virtual: https://www.freepbx.org/
 
-* Passo 5: Configuração de Captura de Tráfego
+# Passo 5: Configuração de Captura de Tráfego
 Adicione um servidor de captura ao projeto (por exemplo, Wireshark).
 Conecte o servidor de captura a uma das interfaces do roteador ou diretamente à rede, dependendo da sua preferência.
 
-* Passo 6: Configuração de Rotas
+# Passo 6: Configuração de Rotas
 Configure as rotas nos roteadores para permitir a comunicação entre as máquinas virtuais e o servidor SIP.
 
-* Passo 7: Inicialização e Testes
+# Passo 7: Inicialização e Testes
 
 Antes de tudo é necessário a instalação de softwares para captura desse tráfico recomendamos o SNGREP e WIRESHARK, lembrando que isso deve fazer no local que deseja fazer a captura desse tráfico sendo uma máquina virtual ou no próprio servidor da URA.
 
