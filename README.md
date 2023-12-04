@@ -39,27 +39,18 @@ Se estiver usando roteadores Cisco, você pode configurar o Dynamips para melhor
 Vá para Edit -> Preferences -> Dynamips.
 Ajuste as configurações de memória e recursos de acordo com a capacidade do seu sistema.
 
-* Adição de Roteadores Virtuais
-No GNS3, adicione dois roteadores virtuais (por exemplo, Cisco Router c7200) ao seu projeto.
-Conecte os roteadores usando links Ethernet e atribua endereços IP às interfaces conectadas.
-
 Observaçãop importante: Conecte as máquinas virtuais aos roteadores usando links Ethernet.
 
 # Passo 4: Configuração de Servidor SIP
   
 Nessa atividade utilizaramos o servidor já criado na apresentação do projeto que utiliza as tecnologias FREEPBX e Asterisck.
 Link da máquina virtual: https://www.freepbx.org/
+Porém já possui a mesma pronta no LINK do PROJETO.
 
-# Passo 5: Configuração de Captura de Tráfego
-Adicione um servidor de captura ao projeto (por exemplo, Wireshark).
-Conecte o servidor de captura a uma das interfaces do roteador ou diretamente à rede, dependendo da sua preferência.
-
-# Passo 6: Configuração de Rotas
-Configure as rotas nos roteadores para permitir a comunicação entre as máquinas virtuais e o servidor SIP.
-
-# Passo 7: Inicialização e Testes
+# Passo 5: Inicialização e Testes
 
 Antes de tudo é necessário a instalação de softwares para captura desse tráfico recomendamos o SNGREP e WIRESHARK, lembrando que isso deve fazer no local que deseja fazer a captura desse tráfico sendo uma máquina virtual ou no próprio servidor da URA.
+Nas máquinas virtuais no qual possui SoftFone, possui o Wireshark, e no servidor que roda o asterisk possui o SINGREP.
 
 ## :rocket: Como instalar sngrep?
 
@@ -110,6 +101,6 @@ Inicie o roteador, máquinas virtuais, e o servidor SIP e o servidor (máquina v
 
 Realize chamadas SIP entre as máquinas virtuais e monitore o tráfego SIP no servidor de captura.
 
-## :dart: LINK do PROJETO: 
+## 🗂 LINK do PROJETO: 
 
 https://drive.google.com/drive/folders/1iEToCL4f2Z52SSn85ITAC2oHOOJNUEBh?usp=sharing
