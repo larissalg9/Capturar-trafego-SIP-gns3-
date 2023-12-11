@@ -8,7 +8,7 @@ O protocolo SIP é utilizado em chamadas de voz sobre IP ou VoIP. Isso permite q
 
 * <b>Topologia de uma rede com implementação de SIP</b>:
 
-![image](https://github.com/larissalg9/Capturar-trafego-SIP-gns3-/assets/58262383/2f92713d-30c1-4e1d-a2e2-e4e30706d85e)
+![image](https://github.com/larissalg9/Capturar-trafego-SIP-gns3-/assets/58262383/eeb90342-7758-463e-bce5-884fccc0f220)
 
 # Passo 1: Download, Instalação e configuração do GNS3
   
